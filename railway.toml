@@ -1,6 +1,6 @@
 [build]
 builder = "dockerfile"
-dockerfilePath = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
 
 [[mounts]]
 source = "livebook_data"
