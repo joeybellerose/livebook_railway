@@ -5,7 +5,7 @@ ENV LIVEBOOK_PORT 8080
 EXPOSE 8080
 
 # If you have a persistent volume, configure it here
-VOLUME [/data]
+# VOLUME [/data]
 # ENV RAILWAY_RUN_UID=0
 ENV LIVEBOOK_DATA_PATH "/data"
 USER root
