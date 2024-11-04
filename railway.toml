@@ -3,5 +3,5 @@ builder = "dockerfile"
 dockerfilePath = "Dockerfile"
 
 [[mounts]]
-source = "livebook_data"
+source = "data"
 destination = "/data"
