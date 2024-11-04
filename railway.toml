@@ -4,4 +4,4 @@ dockerfilePath = "Dockerfile"
 
 [[mounts]]
 source = "livebook_data"
-destination = "/data"
+destination = "/app/data"
