@@ -1,0 +1,7 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "Dockerfile"
+
+[[mounts]]
+source = "livebook_data"
+destination = "/data"
