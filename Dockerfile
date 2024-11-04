@@ -7,6 +7,7 @@ EXPOSE 8080
 # If you have a persistent volume, configure it here
 # VOLUME [/data]
 # ENV RAILWAY_RUN_UID=0
+ENV RAILWAY_VOLUME_MOUNT_PATH "/data"
 ENV LIVEBOOK_DATA_PATH "/data"
 USER root
 RUN mkdir -p /data
